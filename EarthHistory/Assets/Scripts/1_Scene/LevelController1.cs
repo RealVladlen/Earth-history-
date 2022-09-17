@@ -4,7 +4,7 @@ using UnityEngine;
 public class LevelController1 : MonoBehaviour
 {
     [SerializeField] private List<CompoundH> _listH;
-    [SerializeField] private TextController _textController;
+    [SerializeField] private TextControllerLevels1 _textController;
 
     public void ClearH()
     {

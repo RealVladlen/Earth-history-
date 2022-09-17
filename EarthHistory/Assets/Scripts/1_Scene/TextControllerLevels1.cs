@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class TextController : MonoBehaviour
+public class TextControllerLevels1 : MonoBehaviour
 {
     [SerializeField] private GameObject _firstText, _secondText, _thirdText;
     private CanvasGroup _firstTextCanvas, _secondTextCanvas, _thirdTextCanvas;
@@ -34,7 +34,7 @@ public class TextController : MonoBehaviour
     {
         _firstTextCanvas.DOFade(1, 0.25f).onComplete += () =>
         {
-            _firstTextCanvas.DOFade(0, 0.25f).SetDelay(7);
+            _firstTextCanvas.DOFade(0, 0.25f).SetDelay(12);
         };
     }
 
@@ -45,12 +45,12 @@ public class TextController : MonoBehaviour
         _secondText.SetActive(true);
         _secondTextCanvas.DOFade(1, 0.25f).onComplete += () =>
         {
-            _secondTextCanvas.DOFade(0, 0.25f).SetDelay(7).onComplete += () =>
+            _secondTextCanvas.DOFade(0, 0.25f).SetDelay(10).onComplete += () =>
             {
                 _thirdText.SetActive(true);
                 _thirdTextCanvas.DOFade(1, 0.25f).SetDelay(0.5f).onComplete += () =>
                 {
-                    _thirdTextCanvas.DOFade(0, 0.25f).SetDelay(15).onComplete += () =>
+                    _thirdTextCanvas.DOFade(0, 0.25f).SetDelay(20).onComplete += () =>
                     {
                         ThirdStep();
                     };
@@ -67,7 +67,7 @@ public class TextController : MonoBehaviour
         _universeText.SetActive(true);
         _universeTextCanvas.DOFade(1, 0.25f).onComplete += () => 
         {
-            _universeTextCanvas.DOFade(0, 0.25f).SetDelay(20).onComplete += () =>
+            _universeTextCanvas.DOFade(0, 0.25f).SetDelay(30).onComplete += () =>
             {
                 _nextButton.SetActive(true);
                 _nextButtonCanvas.DOFade(1, 0.25f);

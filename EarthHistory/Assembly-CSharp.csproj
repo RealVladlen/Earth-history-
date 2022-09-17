@@ -56,22 +56,28 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\1_Scene\LevelController1.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\Test\AnimateTextDeformer.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMJitterData.cs" />
+    <Compile Include="Assets\Scripts\Sound\Explosion.cs" />
+    <Compile Include="Assets\Scripts\Sound\Click.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMColorData.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\Deformer\EasyTextDeformer.cs" />
     <Compile Include="Assets\Scripts\Animations\RotateAround.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Sample\STMSimpleButton.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Sample\STMAppendExample.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\CGHolder.cs" />
+    <Compile Include="Assets\Scripts\1_Scene\CompoundH.cs" />
     <Compile Include="Assets\Library\SlimUI\Tech Menu\Scripts\UIElementDragger.cs" />
     <Compile Include="Assets\Library\SlimUI\Tech Menu\Scripts\UIManagerTech.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Sample\STMVertexMod.cs" />
+    <Compile Include="Assets\Scripts\1_Scene\TextControllerLevels1.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\SoftEffects.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMAutoClipData.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Sample\STMSampleLink.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\Styles.cs" />
+    <Compile Include="Assets\Scripts\2_Scene\CameraController.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMWaveData.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMGradientData.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMSoundClipData.cs" />
@@ -90,6 +96,7 @@
     <Compile Include="Assets\Scripts\Controllers\ScensController.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\GPUWorker.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\PrintData.cs" />
+    <Compile Include="Assets\Scripts\Sound\Music.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\SuperTextMeshData.cs" />
     <Compile Include="Assets\Library\SlimUI\Tech Menu\Scripts\ToolTip.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMAudioClipData.cs" />
@@ -102,12 +109,7 @@
     <Compile Include="Assets\Clavian\SuperTextMesh\Scripts\Modules\STMFontData.cs" />
     <Compile Include="Assets\Library\SoftEffects\Scripts\SoftEffectsFont.cs" />
     <Compile Include="Assets\Clavian\SuperTextMesh\Utility\STMChangeSortingOrder.cs" />
-    <Compile Include="Assets\Scripts\1_Scene\TextController.cs" />
-    <Compile Include="Assets\Scripts\1_Scene\CompoundH.cs" />
-    <Compile Include="Assets\Scripts\1_Scene\LevelController1.cs" />
-    <Compile Include="Assets\Scripts\Sound\Music.cs" />
-    <Compile Include="Assets\Scripts\Sound\Click.cs" />
-    <Compile Include="Assets\Scripts\Sound\Explosion.cs" />
+    <Compile Include="Assets\Scripts\2_Scene\TextControllersLevel2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Clavian\SuperTextMesh\Sample\Fonts\Itim\OFL.txt" />
