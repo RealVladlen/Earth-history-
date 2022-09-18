@@ -15,4 +15,9 @@ public class LevelController1 : MonoBehaviour
 
         _textController.SecondStepText();
     }
+
+    public void CloseFirstText()
+    {
+        _textController.CloseFirstStep();
+    }
 }

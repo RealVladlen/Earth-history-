@@ -47,7 +47,7 @@ public class CompoundH : MonoBehaviour
         if (h)
         {
             _controller.ClearH();
-
+            _controller.CloseFirstText();
         }
     }
 

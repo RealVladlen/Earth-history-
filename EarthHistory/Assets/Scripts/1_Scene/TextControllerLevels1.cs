@@ -45,7 +45,7 @@ public class TextControllerLevels1 : MonoBehaviour
         _secondText.SetActive(true);
         _secondTextCanvas.DOFade(1, 0.25f).onComplete += () =>
         {
-            _secondTextCanvas.DOFade(0, 0.25f).SetDelay(10).onComplete += () =>
+            _secondTextCanvas.DOFade(0, 0.25f).SetDelay(7).onComplete += () =>
             {
                 _thirdText.SetActive(true);
                 _thirdTextCanvas.DOFade(1, 0.25f).SetDelay(0.5f).onComplete += () =>
@@ -72,6 +72,14 @@ public class TextControllerLevels1 : MonoBehaviour
                 _nextButton.SetActive(true);
                 _nextButtonCanvas.DOFade(1, 0.25f);
             };
+        };
+    }
+
+    public void CloseFirstStep()
+    {
+        _firstTextCanvas.DOFade(0, 0.25f).onComplete += () => 
+        {
+            _firstText.SetActive(false);
         };
     }
 }

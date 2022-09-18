@@ -50,22 +50,22 @@ public class CameraController : MonoBehaviour
 
             case 2:
                 _speed = 4f;
-                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.7f, _planets[_index - 1].transform.position.z + (-2f));
+                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.2f, _planets[_index - 1].transform.position.z + (-1f));
                 break;
 
             case 3:
                 _speed = 4f;
-                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.7f, _planets[_index - 1].transform.position.z + (-2f));
+                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.3f, _planets[_index - 1].transform.position.z + (-2f));
                 break;
 
             case 4:
                 _speed = 4f;
-                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.7f, _planets[_index - 1].transform.position.z + (-2f));
+                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.5f, _planets[_index - 1].transform.position.z + (-2f));
                 break;
 
             case 5:
                 _speed = 4f;
-                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.7f, _planets[_index - 1].transform.position.z + (-2f));
+                _newTarget = new Vector3(_planets[_index - 1].transform.position.x, _planets[_index - 1].transform.position.y + 0.5f, _planets[_index - 1].transform.position.z + (-2f));
                 break;
 
             case 6:
